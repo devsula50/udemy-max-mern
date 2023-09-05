@@ -1,10 +1,12 @@
 import "./App.css";
+import GoalList from "./components/GoalList";
 
 const App = () => {
   return (
-    <h1 title="This works!">
-      Hi, <span>this</span> is ReactJS!
-    </h1>
+    <div className="course-goals">
+      <h2>Course Goals</h2>
+      <GoalList />
+    </div>
   );
 };
 
